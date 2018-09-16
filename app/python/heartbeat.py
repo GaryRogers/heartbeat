@@ -4,4 +4,4 @@ app = Flask('heartbeat')
 
 @app.route("/")
 def hello():
-    return json.dumps('Hello workd')
+    return json.dumps('Hello world')
